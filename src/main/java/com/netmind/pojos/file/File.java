@@ -1,6 +1,6 @@
 package com.netmind.pojos.file;
 
-public class File implements Measurable{
+public class File{
 	
 	private int length;
 	private int sent;
