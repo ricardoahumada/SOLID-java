@@ -1,6 +1,6 @@
 package com.netmind.pojos.readers;
 
-import com.netmind.pojos.books.EBook;
+import com.netmind.srp.books.EBook;
 
 public abstract class NewEBookReader2 {
 	protected EBook book;

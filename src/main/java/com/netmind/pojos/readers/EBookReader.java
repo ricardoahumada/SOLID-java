@@ -1,6 +1,6 @@
 package com.netmind.pojos.readers;
 
-import com.netmind.pojos.books.PDFBook;
+import com.netmind.srp.books.PDFBook;
 
 public class EBookReader {
 	private PDFBook book;

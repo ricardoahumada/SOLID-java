@@ -1,22 +1,21 @@
 package com.netmind;
 
-import com.netmind.pojos.books.Book;
-import com.netmind.pojos.books.NewBook;
-import com.netmind.pojos.printers.PlainTextPrinter;
-import com.netmind.pojos.printers.Printer;
+import com.netmind.srp.si.books.Book;
+import com.netmind.srp.si.printers.PlainTextPrinter;
+import com.netmind.srp.si.printers.Printer;
 import org.junit.Test;
 
 public class SRPTest {
 
     @Test
     public void printCurrentPageTest() {
-        Book libro=new Book();
+        com.netmind.srp.no.Book libro=new com.netmind.srp.no.Book();
         libro.printCurrentPage();
     }
 
     @Test
     public void printNewCurrentPageTest() {
-        NewBook libro=new NewBook();
+        Book libro=new Book();
         Printer textPrinter=new PlainTextPrinter();
         textPrinter.printPage(libro.getCurrentPage());
     }
