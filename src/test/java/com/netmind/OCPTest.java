@@ -22,7 +22,7 @@ public class OCPTest {
 
     @Test
     public void trackingPercentTest() {
-        Measurable fichero = new com.netmind.ocp.si.File(200, 100);
+        com.netmind.ocp.si.File fichero = new com.netmind.ocp.si.File(200, 100);
 
         Progress progress = new Progress(fichero);
         assertTrue(50 == progress.getAsPercent());

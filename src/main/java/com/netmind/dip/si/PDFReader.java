@@ -1,9 +1,9 @@
-package com.netmind.pojos.readers;
+package com.netmind.dip.si;
 
 import com.netmind.srp.books.EBook;
 
-public class NewPDFReader extends NewEBookReader2 {
-	public NewPDFReader(EBook book) {
+public class PDFReader extends EBookReader {
+	public PDFReader(EBook book) {
 		super(book);
 	}
 

@@ -1,11 +1,11 @@
-package com.netmind.pojos.readers;
+package com.netmind.dip.si;
 
 import com.netmind.srp.books.EBook;
 
-public class NewEBookReader {
-	private EBook book;
+public class EBookReader {
+	protected EBook book;
 	 
-    public NewEBookReader(EBook book) {
+    public EBookReader(EBook book) {
         this.book = book;
     }
  

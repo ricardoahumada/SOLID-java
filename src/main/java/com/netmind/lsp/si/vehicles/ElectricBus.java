@@ -11,10 +11,10 @@ public class ElectricBus extends Vehicle{
         this.increaseVoltage();
         this.connectIndividualEngines();
     }
-    public void increaseVoltage(){
+    private void increaseVoltage(){
         System.out.println("Increasing voltage...");
     }
-    public void connectIndividualEngines(){
+    private void connectIndividualEngines(){
         System.out.println("Connecting individual engines...");
     }
 }
