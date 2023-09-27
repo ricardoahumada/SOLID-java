@@ -1,4 +1,4 @@
-package com.enmotion.examples.srp.violation;
+package com.enmotion.more_examples.srp.violation;
 
 public class UserSession {
     public void startSession() {

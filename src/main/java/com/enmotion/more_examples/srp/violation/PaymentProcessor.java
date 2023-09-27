@@ -1,6 +1,6 @@
-package com.enmotion.examples.srp.violation;
+package com.enmotion.more_examples.srp.violation;
 
-import com.enmotion.examples.srp.model.Payment;
+import com.enmotion.more_examples.srp.model.Payment;
 
 public class PaymentProcessor {
     public void processPayment(Payment payment) {
